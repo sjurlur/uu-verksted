@@ -6,7 +6,7 @@ class Skjema extends Component {
     return (
       <div>
         <h1>Skjema</h1>
-
+        <a href="https://uu.difi.no/artikkel/2015/07/skjema">Difis artikkel om skjema</a>
         <h2>Ledetekster</h2>
         <p>
           Alle input-felt må ha ledetekster. Disse kodes med elementet <code>&lt;label&gt;</code>. 

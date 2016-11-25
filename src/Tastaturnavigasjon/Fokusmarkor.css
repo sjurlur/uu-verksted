@@ -1,0 +1,12 @@
+.actionbutton {
+  display: inline-block !important;
+}
+
+.actionbutton:focus {
+  box-shadow: none !important;
+}
+
+.atom_secondarybutton {
+  margin-left: 1rem;
+  display: inline-block;
+}

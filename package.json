@@ -6,9 +6,11 @@
     "react-scripts": "0.7.0"
   },
   "dependencies": {
+    "focus-trap": "^2.1.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
-    "react-router": "^3.0.0"
+    "react-router": "^3.0.0",
+    "tabbable": "^1.0.4"
   },
   "scripts": {
     "start": "react-scripts start",

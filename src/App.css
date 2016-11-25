@@ -11,3 +11,8 @@ code {
 p {
   max-width: 40rem;
 }
+
+h3,
+h2 {
+  margin-bottom: 0;
+}
