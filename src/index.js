@@ -8,6 +8,7 @@ import Fokusmarkor from './Tastaturnavigasjon/Fokusmarkor';
 import Tastaturfelle from './Tastaturnavigasjon/Tastaturfelle';
 import TastaturfelleOppg from './Tastaturnavigasjon/TastaturfelleOppg';
 import DekkendeLag from './Tastaturnavigasjon/DekkendeLag';
+import DekkendeLagOppg from './Tastaturnavigasjon/DekkendeLagOppg';
 
 import './index.css';
 import { Router, Route, hashHistory, IndexRoute } from 'react-router';
@@ -22,6 +23,7 @@ ReactDOM.render(
       <Route path="/4" component={Tastaturfelle} />
       <Route path="/5" component={TastaturfelleOppg} />
       <Route path="/6" component={DekkendeLag} />
+      <Route path="/7" component={DekkendeLagOppg} />
     </Route>
   </Router>,
   document.getElementById('root')
