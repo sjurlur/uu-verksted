@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        Hjem
+        Hvilke verktøy
       </div>
     );
   }
