@@ -20,7 +20,6 @@ class Tastaturnavigasjon extends Component {
     const clicked = this.state.clicked ? 'Klikk registrert' : null;
     return (
       <div className="page_tastaturnavigasjon">
-        <h1>Tastaturnavigasjon</h1>
         <a href="https://uu.difi.no/artikkel/2015/07/tastaturnavigering">Difis artikkel om tastaturnavigering</a>
         <p>Det skal være mulig å navigere på nettsiden ved bruk av tastatur. Se tabellen under for hvordan man 
         bruker tastaturnavigasjon for de mest vanlige elementene. Tabellen er ett utdrag fra webAims artikkel
@@ -39,28 +38,28 @@ class Tastaturnavigasjon extends Component {
           <tr>
             <td>Navigate to most elements</td>
             <td><ul>
-              <li><span class="keycap">Tab</span></li>
-              <li><span class="keycap">Shift</span> + <span class="keycap">Tab</span> - navigate backward</li>
+              <li><span className="keycap">Tab</span></li>
+              <li><span className="keycap">Shift</span> + <span className="keycap">Tab</span> - navigate backward</li>
             </ul>     </td>
           </tr>
           <tr>
             <td>Link</td>
-            <td><span class="keycap">Enter</span></td>
+            <td><span className="keycap">Enter</span></td>
           </tr>
           <tr>
             <td>Button</td>
-            <td><span class="keycap">Enter</span> or <span class="keycap">Spacebar</span></td>
+            <td><span className="keycap">Enter</span> or <span className="keycap">Spacebar</span></td>
           </tr>
           <tr>
             <td>Checkbox</td>
-            <td><span class="keycap">Spacebar</span> - check/uncheck a checkbox</td>
+            <td><span className="keycap">Spacebar</span> - check/uncheck a checkbox</td>
           </tr>
           <tr>
             <td>Radio buttons</td>
             <td>
               <ul>
-                <li><span class="keycap">↑</span>/<span class="keycap">↓</span> or <span class="keycap">←</span>/<span class="keycap">→</span> - select an option. </li>
-                <li><span class="keycap">Tab</span> - move to the next element.</li>
+                <li><span className="keycap">↑</span>/<span className="keycap">↓</span> or <span className="keycap">←</span>/<span className="keycap">→</span> - select an option. </li>
+                <li><span className="keycap">Tab</span> - move to the next element.</li>
               </ul>
             </td>
           </tr>
@@ -68,8 +67,8 @@ class Tastaturnavigasjon extends Component {
             <td>Select (dropdown) menu</td>
             <td>
               <ul>
-                <li><span class="keycap">↑</span>/<span class="keycap">↓</span> - navigate between menu options</li>
-                <li><span class="keycap">Spacebar</span> - expand</li>
+                <li><span className="keycap">↑</span>/<span className="keycap">↓</span> - navigate between menu options</li>
+                <li><span className="keycap">Spacebar</span> - expand</li>
               </ul>
             </td>
           </tr>

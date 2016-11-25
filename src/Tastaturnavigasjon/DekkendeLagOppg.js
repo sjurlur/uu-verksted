@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import focusTrap from 'focus-trap';
+import classNames from 'classnames';
 
 class DekkendeLagOppg extends Component {
   constructor(props) {
@@ -29,8 +30,12 @@ class DekkendeLagOppg extends Component {
   }
 
   render() {
-    const lightbox = !this.state.open ? null : (
-      <div className="mol_lightbox" ref="lightbox">
+    const classes = classNames({
+      'mol_lightbox': true,
+      'visuallyhidden': !this.state.open
+    });
+    const lightbox = (
+      <div className={classes} ref="lightbox">
           <div className="lightbox-content">
               <h3 tabIndex="0" ref="lightboxheading">Lightbox hvor innhold bestemmer bredde</h3>
 
@@ -47,15 +52,7 @@ class DekkendeLagOppg extends Component {
       );
     return (
       <div>
-        <h2>Expandere og modalvinduer</h2>
-        <p>
-          Ved åpning av modalvinduer skal fokus settes til begynnelsen av vinduet. Ved lukking skal elementet som åpnet vinduet få fokus igjen
-        </p>
-        <p>
-          En vanlig feil er at innhold i modalvinduer og ekspanderbar visning er skjult visuelt, men ikke for tastaturnavigasjon. 
-          Bruker vil da kunne navigere til elementer som er skjult i visningen, og som dermed ikke har noen fokusmarkør. Det blir bare rot. 
-        </p>
-        <h3>Eksempel</h3>
+        <h2>Finn én feil</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas itaque doloribus ipsum nobis saepe obcaecati molestiae porro atque, blanditiis ut voluptas nulla, a minima, odio nostrum reprehenderit minus quos. Error.</p>
         <button className="actionbutton" type="button" onClick={this.openLightbox} ref="knapp">Åpne modalvindu</button>
         {lightbox}

@@ -16,3 +16,7 @@
 .page_tastaturnavigasjon .actionbutton {
   margin-top: 1rem !important;
 }
+
+.page_tastaturnavigasjon form {
+  max-width: 40rem;
+}
