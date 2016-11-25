@@ -1,18 +1,18 @@
-table {
+.page_tastaturnavigasjon table {
   max-width: 60rem;
 }
 
-ul {
+.page_tastaturnavigasjon ul {
   padding: 0;
   padding-left: 1rem;
   margin: 0;
 }
 
-fieldset,
-select {
+.page_tastaturnavigasjon fieldset,
+.page_tastaturnavigasjon select {
   margin: 1rem 0;
 }
 
-.actionbutton {
+.page_tastaturnavigasjon .actionbutton {
   margin-top: 1rem !important;
 }

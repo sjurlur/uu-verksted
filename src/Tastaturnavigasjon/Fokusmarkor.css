@@ -1,12 +1,12 @@
-.actionbutton {
+.page_fokusmarkor .actionbutton {
   display: inline-block !important;
 }
 
-.actionbutton:focus {
+.page_fokusmarkor .actionbutton:focus {
   box-shadow: none !important;
 }
 
-.atom_secondarybutton {
+.page_fokusmarkor .atom_secondarybutton {
   margin-left: 1rem;
   display: inline-block;
 }

@@ -4,7 +4,7 @@ import './Fokusmarkor.css';
 class Fokusmarkor extends Component {
   render() {
     return (
-      <div>
+      <div className="page_fokusmarkor">
         <h2>Finn én feil</h2>
         <button className="actionbutton">Lagre</button>
         <button className="atom_secondarybutton">Avbryt</button>

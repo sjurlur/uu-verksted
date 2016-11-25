@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import focusTrap from 'focus-trap';
-import './TastaturfelleOppg.css';
+
 class TastaturfelleOppg extends Component {
   constructor(props) {
     super(props);

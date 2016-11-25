@@ -19,7 +19,7 @@ class Tastaturnavigasjon extends Component {
   render() {
     const clicked = this.state.clicked ? 'Klikk registrert' : null;
     return (
-      <div>
+      <div className="page_tastaturnavigasjon">
         <h1>Tastaturnavigasjon</h1>
         <a href="https://uu.difi.no/artikkel/2015/07/tastaturnavigering">Difis artikkel om tastaturnavigering</a>
         <p>Det skal være mulig å navigere på nettsiden ved bruk av tastatur. Se tabellen under for hvordan man 
