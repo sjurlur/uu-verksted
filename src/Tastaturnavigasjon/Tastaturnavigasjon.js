@@ -25,8 +25,6 @@ class Tastaturnavigasjon extends Component {
         bruker tastaturnavigasjon for de mest vanlige elementene. Tabellen er ett utdrag fra webAims artikkel
         &nbsp;<a href="http://webaim.org/techniques/keyboard/">keyboard accessibility</a></p>
 
-        <p>Alle elementer som kan få fokus ved tastaturnavigasjon skal ha <b>tydelig fokusmarkør</b></p>
-
         <table className="borders">
           <thead>
             <tr>
