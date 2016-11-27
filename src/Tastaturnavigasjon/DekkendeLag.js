@@ -56,8 +56,10 @@ class DekkendeLag extends Component {
           Bruker vil da kunne navigere til elementer som er skjult i visningen, og som dermed ikke har noen fokusmarkør. Det blir bare rot. 
         </p>
         <h3>Eksempel</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas itaque doloribus ipsum nobis saepe obcaecati molestiae porro atque, blanditiis ut voluptas nulla, a minima, odio nostrum reprehenderit minus quos. Error.</p>
-        <button className="actionbutton" type="button" onClick={this.openLightbox} ref="knapp">Åpne modalvindu</button>
+        <div className="mol_emphasisbox grey">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas itaque doloribus ipsum nobis saepe obcaecati molestiae porro atque, blanditiis ut voluptas nulla, a minima, odio nostrum reprehenderit minus quos. Error.</p>
+          <button className="actionbutton" type="button" onClick={this.openLightbox} ref="knapp">Åpne modalvindu</button>
+        </div>
         {lightbox}
       </div>
     );

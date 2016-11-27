@@ -10,6 +10,7 @@ class Gruppering extends Component {
           <code>&lt;legend&gt;</code>
         </p>
         <h3>Eksempel</h3>
+        <div className="mol_emphasisbox grey">
         <form>
           <fieldset>
             <legend>Vil du høre en vits?</legend>
@@ -23,6 +24,7 @@ class Gruppering extends Component {
             </div>
           </fieldset>
         </form>
+        </div>
       </div>
     );
   }

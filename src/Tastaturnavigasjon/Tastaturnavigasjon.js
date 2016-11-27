@@ -76,34 +76,37 @@ class Tastaturnavigasjon extends Component {
 
         <h2>Eksempel</h2>
         <p>Bruk tastatur for å navigere i de forskjellige elementene.</p>
-        <form>
-          <label htmlFor="tekst">Navn:</label>
-          <input type="text" id="tekst" />
-          <fieldset>
-            <legend>Vil du høre en vits?</legend>
-            <div>
-              <input type="radio" name="radio" id="ja" value="ja"/>
-              <label htmlFor="ja">Ja</label>
-            </div>
-            <div>
-              <input type="radio" name="radio" id="nei" value="nei"/>
-              <label htmlFor="nei">Nei</label>
-            </div>
-          </fieldset>
-          
-          <input type="checkbox" id="check" />
-          <label htmlFor="check">Sjekk?</label>
-          
-          <select>
-            <option>Valg 1</option>
-            <option>Valg 2</option>
-            <option>Valg 3</option>
-          </select>
+        <div className="mol_emphasisbox grey">
+          <form>
+            <label htmlFor="tekst">Navn:</label>
+            <input type="text" id="tekst" />
+            <fieldset>
+              <legend>Vil du høre en vits?</legend>
+              <div>
+                <input type="radio" name="radio" id="ja" value="ja"/>
+                <label htmlFor="ja">Ja</label>
+              </div>
+              <div>
+                <input type="radio" name="radio" id="nei" value="nei"/>
+                <label htmlFor="nei">Nei</label>
+              </div>
+            </fieldset>
+            
+            <input type="checkbox" id="check" />
+            <label htmlFor="check">Sjekk?</label>
+            
+            <label htmlFor="select" className="select">Velg:</label>
+            <select id="select">
+              <option>Valg 1</option>
+              <option>Valg 2</option>
+              <option>Valg 3</option>
+            </select>
 
-          <button type="submit" className="actionbutton" onClick={this.click}>Send</button>
-          <br/>
-          {clicked}
-        </form>
+            <button type="submit" className="actionbutton" onClick={this.click}>Send</button>
+            <br/>
+            {clicked}
+          </form>
+        </div>
       </div>
     );
   }

@@ -1,5 +1,19 @@
 .layout-container {
-  height: 100%;
+  margin: 0 4rem;
+  max-width: 50rem;
+}
+
+h1 {
+  border-bottom: 1px solid #d3d3d3;
+  margin-bottom: 3rem;
+}
+
+.main {
+  min-height: 30rem;
+}
+
+.mol_emphasisbox {
+  margin-top: 1rem;
 }
 
 code {

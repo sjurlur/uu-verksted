@@ -4,9 +4,9 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <article className="layout-container">
+      <div>
        {this.props.children}
-      </article>
+      </div>
     );
   }
 }

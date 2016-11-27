@@ -32,11 +32,13 @@ class TastaturfelleOppg extends Component {
     return (
       <div>
         <h2>Finn én feil</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil quis, aut possimus voluptatum ratione reprehenderit, corporis, minus repellat facere nobis blanditiis temporibus aperiam. Sit, praesentium? In harum numquam dolorem.
-        </p>
-        <button className="atom_inline-navigationbutton arrow-after arrow-down" onClick={this.expand}>Les mer om lorem ipsum</button>
-        {expander}
+        <div className="mol_emphasisbox grey">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil quis, aut possimus voluptatum ratione reprehenderit, corporis, minus repellat facere nobis blanditiis temporibus aperiam. Sit, praesentium? In harum numquam dolorem.
+          </p>
+          <button className="atom_inline-navigationbutton arrow-after arrow-down" onClick={this.expand}>Les mer om lorem ipsum</button>
+          {expander}
+        </div>
       </div>
     );
   }

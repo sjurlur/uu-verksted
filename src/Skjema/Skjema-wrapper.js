@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import Progress from '../Progress/Progress';
-import './Tastaturnavigasjon.css';
 
-class TastaturnavigasjonWrapper extends Component {
+class SkjemaWrapper extends Component {
   render() {
     return (
       <div>
         <div className="layout-container main">
-          <h1>Tastaturnavigasjon</h1>
+          <h1>Skjema</h1>
           {this.props.children}
         </div>
         <Progress index={this.props.route} elements={this.props.routes[this.props.routes.length - 2].childRoutes} current={this.props.location.pathname}/>
@@ -16,4 +15,4 @@ class TastaturnavigasjonWrapper extends Component {
   }
 }
 
-export default TastaturnavigasjonWrapper;
+export default SkjemaWrapper;
