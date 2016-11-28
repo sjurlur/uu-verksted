@@ -2,7 +2,7 @@
   max-width: 60rem;
 }
 
-.page_tastaturnavigasjon ul {
+.page_tastaturnavigasjon table ul {
   padding: 0;
   padding-left: 1rem;
   margin: 0;
@@ -23,5 +23,17 @@
 
 .page_tastaturnavigasjon .select {
   margin-bottom: 0;
+  margin-top: 1rem;
+}
+
+.page_tastaturnavigasjon .flexitem.main {
+  min-height: 0;
+}
+
+.page_tastaturnavigasjon__cancelbutton:focus {
+  border: 0;
+}
+
+.page_tastaturnavigasjon__fasit {
   margin-top: 1rem;
 }

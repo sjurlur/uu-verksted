@@ -19,8 +19,7 @@ class Tastaturnavigasjon extends Component {
   render() {
     const clicked = this.state.clicked ? 'Klikk registrert' : null;
     return (
-      <div className="page_tastaturnavigasjon">
-        <a href="https://uu.difi.no/artikkel/2015/07/tastaturnavigering">Difis artikkel om tastaturnavigering</a>
+      <div>
         <p>Det skal være mulig å navigere på nettsiden ved bruk av tastatur. Se tabellen under for hvordan man 
         bruker tastaturnavigasjon for de mest vanlige elementene. Tabellen er ett utdrag fra webAims artikkel
         &nbsp;<a href="http://webaim.org/techniques/keyboard/">keyboard accessibility</a></p>
@@ -72,8 +71,8 @@ class Tastaturnavigasjon extends Component {
           </tr>
         </tbody></table>
 
-        <h2>Eksempel</h2>
-        <p>Bruk tastatur for å navigere i de forskjellige elementene.</p>
+        <h2>Oppgave</h2>
+        <p>Bruk tastatur for å navigere i de forskjellige elementene. Når du er ferdig, gå til neste side uten å bruke musen.</p>
         <div className="mol_emphasisbox grey">
           <form>
             <label htmlFor="tekst">Navn:</label>

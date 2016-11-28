@@ -6,7 +6,7 @@ class TastaturnavigasjonWrapper extends Component {
   render() {
     return (
       <div>
-        <div className="layout-container main">
+        <div className="layout-container main page_tastaturnavigasjon">
           <h1>Tastaturnavigasjon</h1>
           {this.props.children}
         </div>

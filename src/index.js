@@ -19,6 +19,7 @@ import Tastaturfelle from './Tastaturnavigasjon/Tastaturfelle';
 import TastaturfelleOppg from './Tastaturnavigasjon/TastaturfelleOppg';
 import DekkendeLag from './Tastaturnavigasjon/DekkendeLag';
 import DekkendeLagOppg from './Tastaturnavigasjon/DekkendeLagOppg';
+import TastaturnavigasjonOppg from './Tastaturnavigasjon/TastaturnavigasjonOppg';
 
 import './index.css';
 import { Router, Route, hashHistory, IndexRoute } from 'react-router';
@@ -43,6 +44,7 @@ ReactDOM.render(
         <Route path="/tastaturnavigasjon/3" component={TastaturfelleOppg} name="Tastaturfelle oppgave"/>
         <Route path="/tastaturnavigasjon/4" component={DekkendeLag} name="Dekkende lag"/>
         <Route path="/tastaturnavigasjon/5" component={DekkendeLagOppg} name="Dekkende lag oppgave"/>
+        <Route path="/tastaturnavigasjon/6" component={TastaturnavigasjonOppg} name="Tastaturnavigasjon oppgave"/>
       </Route>
     </Route>
   </Router>,

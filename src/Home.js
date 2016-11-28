@@ -7,8 +7,18 @@ class Home extends Component {
     return (
       <div className="layout-container">
         <h1>UU verksted</h1>
-        Hvilke verktøy
+        <p>Verkstedet skal lære deg praktisk testing av universell utforming. Vi vil gå gjennom forskjellige verktøy som brukes til 
+        testing, de mest vanlige feilene og hvordan man finner dem</p>
+        <p>
+          Før du går i gang må du ha lastet ned og installeret:
+        </p>
+        <ul>
+          <li>Nettleseren <a href="https://www.google.com/chrome/browser/desktop/index.html">Google Chrome</a></li>
+          <li><a href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd">aXe for chrome</a></li>
+          <li>Skjermleseren <a href="http://www.windoweyesforoffice.com/">Windows-Eyes</a></li>
+        </ul>
         
+        <h2>Innholdsfortegnelse</h2>
         <ul>
           <li><Link to="/skjema">Skjema</Link></li>
           <li><Link to="/tastaturnavigasjon">Tastaturnavigasjon</Link></li>
