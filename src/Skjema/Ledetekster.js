@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Skjema extends Component {
   render() {
     return (
-      <div className="page_skjema">
+      <div>
         <h2>Ledetekster</h2>
         <p>
           Alle input-felt må ha ledetekster. Disse kodes med elementet <code>&lt;label&gt;</code>. 

@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "react-collapse": "^2.3.3",
+    "react-height": "^2.1.1",
+    "react-motion": "^0.4.5",
     "react-scripts": "0.7.0"
   },
   "dependencies": {

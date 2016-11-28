@@ -6,14 +6,14 @@ class Gruppering extends Component {
       <div>
         <h2>Gruppering</h2>
         <p>
-          Radioknapper må grupperes. Checkbokser bør grupperes. Det gjøres med elementene <code>&lt;fieldset&gt;</code> og
-          <code>&lt;legend&gt;</code>
+          Radioknapper må grupperes. Checkbokser bør grupperes. Det gjøres med elementet <code>&lt;fieldset&gt;</code>. Tekst som beskriver gruppen legges i&nbsp;
+          <code>&lt;legend&gt;</code>.
         </p>
         <h3>Eksempel</h3>
         <div className="mol_emphasisbox grey">
         <form>
           <fieldset>
-            <legend>Vil du høre en vits?</legend>
+            <legend>Send meg epost daglig</legend>
             <div>
               <input type="radio" name="radio" id="ja" value="ja"/>
               <label htmlFor="ja">Ja</label>

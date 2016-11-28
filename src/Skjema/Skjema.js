@@ -4,7 +4,7 @@ import './Skjema.css';
 class Skjema extends Component {
   render() {
     return (
-      <div className="page_skjema">
+      <div>
        Velkommen til skjema. <a href="https://uu.difi.no/artikkel/2015/07/skjema">Difis artikkel om skjema</a>
       </div>
     );

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Pakrevd extends Component {
   render() {
     return (
-      <div className="page_skjema">
+      <div>
         <h2>Påkrevde felt</h2>
         <p>
           Påkrevde felt skal ha attributten <code>required</code> på input-feltet.

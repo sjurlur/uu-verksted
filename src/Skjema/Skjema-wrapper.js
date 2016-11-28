@@ -5,7 +5,7 @@ class SkjemaWrapper extends Component {
   render() {
     return (
       <div>
-        <div className="layout-container main">
+        <div className="layout-container main page_skjema">
           <h1>Skjema</h1>
           {this.props.children}
         </div>

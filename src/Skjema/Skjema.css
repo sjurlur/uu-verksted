@@ -1,3 +1,20 @@
 .page_skjema input[type="text"] {
   max-width: 40rem;
 }
+
+.page_skjema__oppgave input{
+  margin-bottom: 1rem;
+}
+
+.page_skjema__oppgave fieldset{
+  margin: 2rem 0;
+}
+
+.page_skjema__oppgave textarea{
+  margin-bottom: 1rem;
+  width: 40rem;
+}
+
+.page_skjema__innsendt {
+  margin-top: 1rem;
+}
