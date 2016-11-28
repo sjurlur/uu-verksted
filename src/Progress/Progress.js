@@ -41,8 +41,10 @@ class Progress extends Component {
         <div className="footer__wrapper">
           <div className="footer__linkwrap">{prevLink}</div>
           <div className="footer__progress">
-            <progress max="100" value={(thisStep + 1) / (totalSteps) * 100}>
-            </progress>
+            <div className="footer__progressbar" aria-hidden="true">
+              <span style={{width: (thisStep + 1) / (totalSteps) * 100 + '%'}}>
+              </span>
+            </div>
             {thisStep + 1} / {totalSteps}
           </div>
           <div className="footer__linkwrap">{nextLink}</div>

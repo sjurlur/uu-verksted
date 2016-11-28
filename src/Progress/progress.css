@@ -10,7 +10,7 @@
 .footer__wrapper {
   display: flex;
   flex-direction: row;
-  width: 20rem;
+  width: 30rem;
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -23,6 +23,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.footer__progressbar {
+  width: 250px;
+  height: 20px;  /* Can be anything */
+  position: relative;
+  background: #555;
+  border-radius: 5px;
+
+  box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+.footer__progressbar > span {
+  border-radius: 5px;
+  display: block;
+  height: 100%;
+  background-color: rgb(43,194,83);
+  position: relative;
+  overflow: hidden;
+  transition: width 0.3s ease-out;
 }
 
 .footer a {
