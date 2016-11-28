@@ -6,7 +6,7 @@
   margin-bottom: 1rem;
 }
 
-.page_skjema__oppgave fieldset{
+.page_skjema__fieldset {
   margin: 2rem 0;
 }
 
@@ -17,4 +17,8 @@
 
 .page_skjema__innsendt {
   margin-top: 1rem;
+}
+
+.page_skjema__fasit {
+  margin-top: 2rem;
 }
