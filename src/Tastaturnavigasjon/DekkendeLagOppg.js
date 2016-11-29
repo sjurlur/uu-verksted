@@ -53,7 +53,7 @@ class DekkendeLagOppg extends Component {
     return (
       <div>
         <h2>Expandere og modalvinduer</h2>
-        <h3>Finn én feil</h3>
+        <p>Finn én feil</p>
         <div className="mol_emphasisbox grey">
           <button className="actionbutton" type="button" onClick={this.openLightbox} ref="knapp">Åpne modalvindu</button>
         </div>

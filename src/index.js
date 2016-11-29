@@ -30,6 +30,7 @@ import AltTekst from './axe/alt-tekst.js';
 import SkjermleserWrapper from './Skjermleser/Skjermleser-wrapper.js';
 import Skjermleser from './Skjermleser/Skjermleser.js';
 import Lister from './Skjermleser/Lister.js';
+import ListerOppg from './Skjermleser/ListerOppg.js';
 import Hjelpetekster from './Skjermleser/Hjelpetekster.js';
 
 import './index.css';
@@ -66,7 +67,7 @@ ReactDOM.render(
       <Route path="/skjermleser" component={SkjermleserWrapper}>
         <IndexRoute component={Skjermleser} />
         <Route path="/skjermleser/lister" component={Lister} name="lister" />
-        <Route path="/skjermleser/2" component={Hjelpetekster} name="hjelpetekster" />
+        <Route path="/skjermleser/lister-oppgave" component={ListerOppg} name="Lister oppgave" />
       </Route>
     </Route>
   </Router>,

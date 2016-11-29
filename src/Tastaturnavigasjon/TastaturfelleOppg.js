@@ -39,8 +39,8 @@ class TastaturfelleOppg extends Component {
       );
     return (
       <div>
-        <h2>Finn én feil</h2>
-        <p>Trykk på knappen "ferdig" for å kunne gå til neste side</p>
+        <h2>Logisk rekkefølge og tastaturfeller</h2>
+        <p>Finn én feil. Trykk på knappen "ferdig" for å kunne gå til neste side</p>
         <div className="mol_emphasisbox grey">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil quis, aut possimus voluptatum ratione reprehenderit, corporis, minus repellat facere nobis blanditiis temporibus aperiam. Sit, praesentium? In harum numquam dolorem.

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Progress from '../Progress/Progress';
+import './skjermleser.css';
 
 class SkjermleserWrapper extends Component {
   render() {
