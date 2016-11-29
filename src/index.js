@@ -21,15 +21,16 @@ import DekkendeLag from './Tastaturnavigasjon/DekkendeLag';
 import DekkendeLagOppg from './Tastaturnavigasjon/DekkendeLagOppg';
 import TastaturnavigasjonOppg from './Tastaturnavigasjon/TastaturnavigasjonOppg';
 
-import axeWrapper from './axe/axe-wrapper.js';
-import axe from './axe/axe.js';
-import tommeElementer from './axe/tomme-elementer.js';
-import kontrast from './axe/kontrast.js';
-import altTekst from './axe/alt-tekst.js';
+import AxeWrapper from './axe/axe-wrapper.js';
+import Axe from './axe/axe.js';
+import TommeElementer from './axe/tomme-elementer.js';
+import Kontrast from './axe/kontrast.js';
+import AltTekst from './axe/alt-tekst.js';
 
-import skjermleserWrapper from './Skjermleser/Skjermleser-wrapper.js';
-import skjermleser from './Skjermleser/Skjermleser.js';
-import hjelpetekster from './Skjermleser/Hjelpetekster.js';
+import SkjermleserWrapper from './Skjermleser/Skjermleser-wrapper.js';
+import Skjermleser from './Skjermleser/Skjermleser.js';
+import Lister from './Skjermleser/Lister.js';
+import Hjelpetekster from './Skjermleser/Hjelpetekster.js';
 
 import './index.css';
 import { Router, Route, hashHistory, IndexRoute } from 'react-router';
@@ -56,15 +57,16 @@ ReactDOM.render(
         <Route path="/tastaturnavigasjon/5" component={DekkendeLagOppg} name="Dekkende lag oppgave"/>
         <Route path="/tastaturnavigasjon/6" component={TastaturnavigasjonOppg} name="Tastaturnavigasjon oppgave"/>
       </Route>
-      <Route path="/axe" component={axeWrapper}>
-        <IndexRoute component={axe} />
-        <Route path="/axe/1" component={tommeElementer} name="tommeElementer" />
-        <Route path="/axe/2" component={kontrast} name="kontrast" />
-        <Route path="/axe/3" component={altTekst} name="alt tekst" />
+      <Route path="/axe" component={AxeWrapper}>
+        <IndexRoute component={Axe} />
+        <Route path="/axe/1" component={TommeElementer} name="tommeElementer" />
+        <Route path="/axe/2" component={Kontrast} name="kontrast" />
+        <Route path="/axe/3" component={AltTekst} name="alt tekst" />
       </Route>
-      <Route path="/skjermleser" component={skjermleserWrapper}>
-        <IndexRoute component={skjermleser} />
-        <Route path="/skjermleser/1" component={hjelpetekster} name="hjelpetekster" />
+      <Route path="/skjermleser" component={SkjermleserWrapper}>
+        <IndexRoute component={Skjermleser} />
+        <Route path="/skjermleser/lister" component={Lister} name="lister" />
+        <Route path="/skjermleser/2" component={Hjelpetekster} name="hjelpetekster" />
       </Route>
     </Route>
   </Router>,
