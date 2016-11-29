@@ -1,0 +1,19 @@
+.page_axe__illustration {
+  max-width: 40rem;
+  border: 1px solid black;
+}
+
+.page_axe__kontrastlg {
+  font-size: 1.875rem;
+  display: block;
+}
+
+.page_axe__images img {
+  max-width: 20rem;
+}
+
+.page_axe__slett {
+  width: 2rem;
+  vertical-align: middle;
+  margin-right: 1rem;
+}

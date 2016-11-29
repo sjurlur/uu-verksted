@@ -31,3 +31,6 @@ h2 {
   margin-bottom: 0;
 }
 
+.mol_emphasisbox.transparent {
+  background: transparent;
+}

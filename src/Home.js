@@ -15,13 +15,15 @@ class Home extends Component {
         <ul>
           <li>Nettleseren <a href="https://www.google.com/chrome/browser/desktop/index.html">Google Chrome</a></li>
           <li><a href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd">aXe for chrome</a></li>
-          <li>Skjermleseren <a href="http://www.windoweyesforoffice.com/">Windows-Eyes</a></li>
+          <li>Skjermleseren <a href="http://www.windoweyesforoffice.com/">Window-Eyes</a></li>
         </ul>
         
         <h2>Innholdsfortegnelse</h2>
         <ul>
           <li><Link to="/skjema">Skjema</Link></li>
           <li><Link to="/tastaturnavigasjon">Tastaturnavigasjon</Link></li>
+          <li><Link to="/axe">aXe</Link></li>
+          <li><Link to="/skjermleser">Skjermleser</Link></li>
         </ul>
       </div>
     );

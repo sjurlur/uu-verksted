@@ -12,7 +12,7 @@ class Progress extends Component {
         thisStep = i;
       }
     }
-    console.log(elements);
+
     let prevLink;
     if (thisStep > 0) {
       prevLink = (<Link to={elements[thisStep - 1].path}>Forrige</Link>);
@@ -25,7 +25,6 @@ class Progress extends Component {
     }
 
     let nextLink;
-    console.log(thisStep);
     if (thisStep === -1) {
       nextLink = (<Link to={elements[thisStep + 1].path}>Neste</Link>);
     }
