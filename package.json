@@ -2,7 +2,6 @@
   "name": "uu-workshop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://sjurlur.github.io/uu-workshop",
   "devDependencies": {
     "gh-pages": "^0.12.0",
     "react-collapse": "^2.3.3",
