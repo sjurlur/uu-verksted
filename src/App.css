@@ -5,7 +5,7 @@
 
 .heading--border-bottom {
   border-bottom: 1px solid #d3d3d3;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .main {
@@ -31,6 +31,19 @@ h2 {
   margin-bottom: 0;
 }
 
+h1 {
+  margin-bottom: 2rem;
+}
+
 .mol_emphasisbox.transparent {
   background: transparent;
+}
+
+.index-link--active {
+  display: none !important;
+}
+
+.pageheader {
+  padding-top: 0.5rem;
+  min-height: 32px;
 }

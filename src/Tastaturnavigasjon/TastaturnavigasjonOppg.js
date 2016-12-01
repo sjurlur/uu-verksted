@@ -34,6 +34,7 @@ class TastaturnavigasjonOppg extends Component {
     return (
       <div>
        <h2>Oppgave</h2>
+       <p>Finn så mange feil du klarer ved å bruke tastaturnavigasjon. Når du er ferdig kan du sjekke med fasiten nederst på siden. </p>
         <div className="mol_emphasisbox grey">
         <ul className="unstyled">
           <li className="mol_expandable-block protojs-expandable margin-below open" aria-expanded="true" tabIndex="0">

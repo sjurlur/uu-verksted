@@ -12,7 +12,7 @@ class kontrast extends Component {
           <button className="atom_inline-navigationbutton arrow-after arrow-down">Les mer</button>
           <button className="atom_inline-navigationbutton arrow-after arrow-down page_axe__kontrastlg">Les mer</button>
           <br/>
-          <div style={{background: '#e38b21', color: '#fff', 'font-size': '1.875rem'}}>Hjelp</div>
+          <div style={{background: '#e38b21', color: '#fff', 'fontSize': '1.875rem'}}>Hjelp</div>
         </div>
       </div>
     );

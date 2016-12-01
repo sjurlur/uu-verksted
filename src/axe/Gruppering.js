@@ -25,6 +25,23 @@ class Gruppering extends Component {
           </fieldset>
         </form>
         </div>
+        <h3>Oppgave</h3>
+        <p>
+          Bruk aXe til å finne ikke-grupperte radioknapper. 
+        </p>
+        <div className="mol_emphasisbox grey">
+          <form>
+            <legend>Send meg epost nattlig</legend>
+            <div>
+              <input type="radio" name="radio" id="ja" value="ja"/>
+              <label htmlFor="ja">Ja</label>
+            </div>
+            <div>
+              <input type="radio" name="radio" id="nei" value="nei"/>
+              <label htmlFor="nei">Nei</label>
+            </div>
+          </form>
+        </div>
       </div>
     );
   }

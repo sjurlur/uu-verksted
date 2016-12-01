@@ -4,14 +4,21 @@ class LedeteksterOppg extends Component {
   render() {
     return (
       <div>
-        <h2>Ledetekster oppgave</h2>
+        <h2>Ledetekster</h2>
         <p>Alle input-felt må ha ledetekster. Disse kodes med elementet <code>&lt;label&gt;</code>. 
           Ledetekst og input-felt må også være koblet sammen.
         </p>
         <p>
           En enkel måte å teste om input-feltet og ledeteksten er koblet sammen på, er ved å trykke på ledeteksten.
-          Fokusmarkøren skal da havne i input-feltet. Det kan også testes med axe. 
+          Fokusmarkøren skal da havne i input-feltet. 
         </p>
+        <h3>Eksempel</h3>
+        <div className="mol_emphasisbox grey">
+          <form>
+            <label htmlFor="tekst1">Navn:</label>
+            <input type="text" id="tekst1" />
+          </form>
+        </div>
         <h3>Oppgave</h3>
         <p>Finn én feil. Både ved bruk av axe og museklikk.</p>
         <div className="mol_emphasisbox grey">

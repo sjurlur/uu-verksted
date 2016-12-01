@@ -4,10 +4,14 @@ class axe extends Component {
   render() {
     return (
       <div>
-       <p>aXe: the Accessibility Engine er ett verktøy for automatisk testing av universell utforming. </p>
+       <p>aXe: the Accessibility Engine er ett verktøy for automatisk testing av universell utforming. 
+       Den har sine styrker i at det er enkelt å bruke, og finner raskt feil. Ulempene er at verktøyet
+       kun kan finne en liten del av tilgjengelighetsproblemene. 
+       </p>
 
-       <p>Det er viktig å poengtere at de fleste WCAG-kriteriene ikke kan testes automatisk. aXe er god på å finne 
-       feil i kode og kontrastfeil, men kan ikke erstatte manuell test med skjermleser</p>
+       <p>
+         Denne bolken vil gå gjennom de ulike typene feil som aXe kan finne. 
+       </p>
       </div>
     );
   }
