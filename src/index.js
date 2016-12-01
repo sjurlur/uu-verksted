@@ -5,10 +5,6 @@ import Home from './Home';
 
 import SkjemaWrapper from './Skjema/Skjema-wrapper';
 import Skjema from './Skjema/Skjema';
-import Ledetekster from './Skjema/Ledetekster';
-import LedeteksterOppg from './Skjema/LedeteksterOppg';
-import Gruppering from './Skjema/Gruppering';
-import GrupperingOppg from './Skjema/GrupperingOppg';
 import Pakrevd from './Skjema/Pakrevd';
 import SkjemaOppg from './Skjema/SkjemaOppg';
 
@@ -26,12 +22,19 @@ import Axe from './axe/axe.js';
 import TommeElementer from './axe/tomme-elementer.js';
 import Kontrast from './axe/kontrast.js';
 import AltTekst from './axe/alt-tekst.js';
+import Ledetekster from './axe/Ledetekster';
+import Gruppering from './axe/Gruppering';
+import GrupperingOppg from './axe/GrupperingOppg';
 
 import SkjermleserWrapper from './Skjermleser/Skjermleser-wrapper.js';
 import Skjermleser from './Skjermleser/Skjermleser.js';
 import Lister from './Skjermleser/Lister.js';
 import ListerOppg from './Skjermleser/ListerOppg.js';
+import Overskrifter from './Skjermleser/Overskrifter.js';
+import OverskrifterOppg from './Skjermleser/OverskrifterOppg.js';
 import Hjelpetekster from './Skjermleser/Hjelpetekster.js';
+import HjelpeteksterOppg from './Skjermleser/HjelpeteksterOppg.js';
+import Skjermleserfelle from './Skjermleser/Skjermleserfelle.js';
 
 import './index.css';
 import { Router, Route, hashHistory, IndexRoute } from 'react-router';
@@ -42,10 +45,6 @@ ReactDOM.render(
       <IndexRoute component={Home} />
       <Route path="/skjema" component={SkjemaWrapper}>
         <IndexRoute component={Skjema} />
-        <Route path="/skjema/1" name="Ledetekster" component={Ledetekster} />
-        <Route path="/skjema/2" name="Ledetekster oppgave" component={LedeteksterOppg} />
-        <Route path="/skjema/3" name="Gruppering" component={Gruppering} />
-        <Route path="/skjema/4" name="Gruppering oppgave" component={GrupperingOppg} />
         <Route path="/skjema/5" name="Påkrevde felt" component={Pakrevd} />
         <Route path="/skjema/6" name="Oppgave" component={SkjemaOppg} />
       </Route>
@@ -63,11 +62,19 @@ ReactDOM.render(
         <Route path="/axe/1" component={TommeElementer} name="tommeElementer" />
         <Route path="/axe/2" component={Kontrast} name="kontrast" />
         <Route path="/axe/3" component={AltTekst} name="alt tekst" />
+        <Route path="/axe/ledetekster" component={Ledetekster} name="Ledetekster" />
+        <Route path="/axe/gruppering" name="Gruppering" component={Gruppering} />
+        <Route path="/axe/gruppering-oppgave" name="Gruppering oppgave" component={GrupperingOppg} />
       </Route>
       <Route path="/skjermleser" component={SkjermleserWrapper}>
         <IndexRoute component={Skjermleser} />
-        <Route path="/skjermleser/lister" component={Lister} name="lister" />
-        <Route path="/skjermleser/lister-oppgave" component={ListerOppg} name="Lister oppgave" />
+        <Route path="/skjermleser/lister" component={Lister} name="Lister" />
+        <Route path="/skjermleser/lister-oppgave" component={ListerOppg} name="Lister" />
+        <Route path="/skjermleser/overskrifter" component={Overskrifter} name="Overskrifter" />
+        <Route path="/skjermleser/overskrifter-oppgave" component={OverskrifterOppg} name="Overskrifter" />
+        <Route path="/skjermleser/hjelpetekster" component={Hjelpetekster} name="Hjelpetekster" />
+        <Route path="/skjermleser/hjelpetekster-oppgave" component={HjelpeteksterOppg} name="Hjelpetekster" />
+        <Route path="/skjermleser/skjermleserfelle" component={Skjermleserfelle} name="Skjermleserfelle" />
       </Route>
     </Route>
   </Router>,

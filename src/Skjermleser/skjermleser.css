@@ -12,3 +12,14 @@
   position: absolute;
   left: -10px;
 }
+
+.page_skjermelser__h2 {
+  font-size: 1.65rem;
+  font-weight: 400;
+}
+
+.page_skjermelser__boldheading {
+  margin-bottom: .75rem;
+  margin-top: 1rem;
+  display: block;
+}

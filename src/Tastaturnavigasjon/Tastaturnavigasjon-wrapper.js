@@ -7,7 +7,7 @@ class TastaturnavigasjonWrapper extends Component {
     return (
       <div>
         <div className="layout-container main page_tastaturnavigasjon">
-          <h1>Tastaturnavigasjon</h1>
+          <h1 className="heading--border-bottom">Tastaturnavigasjon</h1>
           {this.props.children}
         </div>
         <Progress index={this.props.route} elements={this.props.routes[this.props.routes.length - 2].childRoutes} current={this.props.location.pathname}/>

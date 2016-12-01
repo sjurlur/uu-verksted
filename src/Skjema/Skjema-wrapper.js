@@ -6,7 +6,7 @@ class SkjemaWrapper extends Component {
     return (
       <div>
         <div className="layout-container main page_skjema">
-          <h1>Skjema</h1>
+          <h1 className="heading--border-bottom">Skjema</h1>
           {this.props.children}
         </div>
         <Progress index={this.props.route} elements={this.props.routes[this.props.routes.length - 2].childRoutes} current={this.props.location.pathname}/>

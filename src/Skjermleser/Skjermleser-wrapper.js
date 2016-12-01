@@ -7,7 +7,7 @@ class SkjermleserWrapper extends Component {
     return (
       <div>
         <div className="layout-container main page_skjermleser">
-          <h1>Skjermleser</h1>
+          <h1 className="heading--border-bottom">Skjermleser</h1>
           {this.props.children}
         </div>
         <Progress index={this.props.route} elements={this.props.routes[this.props.routes.length - 2].childRoutes} current={this.props.location.pathname}/>
