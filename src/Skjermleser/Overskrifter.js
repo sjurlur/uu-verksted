@@ -7,7 +7,7 @@ class Overskrifter extends Component {
         <h2>Overskrifter</h2>
         <p>Tekst som ser ut som overskrifter skal være kodet som overskrifter. 
         Overskriftene skal ikke hoppe over noen overskriftsnivå. Det vil si at ikke kan gå 
-        direkte fra nivå 2 til nivå 3.</p>
+        direkte fra nivå 1 til nivå 3.</p>
         <h3>Eksempel</h3>
         <p>
           Se gjennom alle overskriftene på denne siden med skjermleseren. Hvilket nivå er de på?

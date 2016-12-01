@@ -56,8 +56,12 @@ class DekkendeLagOppg extends Component {
         <p>Bruk tastatur for å navigere. Hva er feil på denne siden?</p>
         <div className="mol_emphasisbox grey">
           <button className="actionbutton" type="button" onClick={this.openLightbox} ref="knapp">Åpne modalvindu</button>
+          {lightbox}
+          <br />
+          <button className="atom_inline-btn message"><span>Send melding til Helse nord</span></button><br/>
+          <button className="atom_inline-btn message"><span>Send melding til Helse vest</span></button>
         </div>
-        {lightbox}
+        
       </div>
     );
   }

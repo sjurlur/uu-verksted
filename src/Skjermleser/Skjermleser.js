@@ -12,7 +12,8 @@ class Skjermleser extends Component {
       <ul>
         <li>For å starte ChromeVox. Trykk på <code>ctrl + alt + a + a</code></li>
         <li>Naviger forover med <code>ctrl + alt + pil ned</code></li>
-        <li>Naviger forover med <code>ctrl + alt + pil opp</code></li>
+        <li>Naviger bakover med <code>ctrl + alt + pil opp</code></li>
+        <li>For å få den til å være stille, trykk <code>ctrl</code></li>
       </ul>
        <h2>Oppgave</h2>
         <p>Naviger gjennom denne siden ved bruk av ChromeVox</p>

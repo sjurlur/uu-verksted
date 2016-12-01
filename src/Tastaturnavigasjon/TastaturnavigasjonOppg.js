@@ -34,10 +34,10 @@ class TastaturnavigasjonOppg extends Component {
     return (
       <div>
        <h2>Oppgave</h2>
-       <p>Finn så mange feil du klarer ved å bruke tastaturnavigasjon. Når du er ferdig kan du sjekke med fasiten nederst på siden. </p>
+       <p>Finn så mange feil du klarer ved å bruke tastaturnavigasjon. Når du er ferdig kan du sjekke med fasiten nederst på siden.</p>
         <div className="mol_emphasisbox grey">
         <ul className="unstyled">
-          <li className="mol_expandable-block protojs-expandable margin-below open" aria-expanded="true" tabIndex="0">
+          <li className="mol_expandable-block protojs-expandable margin-below" aria-expanded="true" tabIndex="0">
             <div className="head protojs-expander">
               <div className="mol_expandableblock-head brukavhelsetjenester">
                 <div className="flexitem main">
@@ -89,8 +89,8 @@ class TastaturnavigasjonOppg extends Component {
             <ul>
               <li>Blokken kan få fokus, men det skjer ingenting ved klikk</li>
               <li>Innhold bak expander er ikke skjult for Tastaturnavigasjon</li>
-              <li>Avbryt-knappen mangler fokusmarkør</li>
-              <li>Linken mangler fokusmarkør. Det skjer fordi den mangler href-attributt</li>
+              <li>Avbryt-knappen mangler tydelig fokusmarkør</li>
+              <li>Linken kan ikke få fokus. Det skjer fordi den mangler href-attributt</li>
             </ul>
           </Collapse>
         </section>

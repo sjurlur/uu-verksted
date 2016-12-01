@@ -8,7 +8,7 @@ class Hjelpetekster extends Component {
         <p>
           Stort sett bør tekster vises for alle brukere. Men i noen få tilfeller skjuler vi tekst visuelt, men viser den for 
           skjemlesere. På helsenorge gjelder dette blant annet de skjulte linkene "hopp til innholdet" og "hopp til hovedmeny".
-          I noen tilfeller bruker vi også knapper som bruker ikoner i stedet for tekst.
+          I noen tilfeller bruker vi også knapper med ikoner i stedet for tekst.
         </p>
         <h3>Eksempel</h3>
         <p>Bruk skjermleser til å finne de skjulte tekstene på denne siden.</p>
