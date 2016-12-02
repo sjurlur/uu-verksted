@@ -44,7 +44,9 @@ class Progress extends Component {
               <span style={{width: (thisStep + 1) / (totalSteps) * 100 + '%'}}>
               </span>
             </div>
-            {thisStep + 1} / {totalSteps}
+            <div>
+              <span className="visuallyhidden">Du står på steg </span>{thisStep + 1} <span aria-hidden="true">/</span><span className="visuallyhidden"> av </span> {totalSteps}
+            </div>
           </div>
           <div className="footer__linkwrap">{nextLink}</div>
         </div>
