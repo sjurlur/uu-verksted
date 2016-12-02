@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Expander from '../../Components/Expander/Expander';
 
 class Hjelpetekster extends Component {
   render() {
@@ -36,6 +37,16 @@ class Hjelpetekster extends Component {
             </div>
           </section>
         </div>
+        <br/>
+        <Expander text="Vis fasit">
+          <ul>
+            <li>Lukkeknappen har skjult tekst "lukk"</li>
+            <li>Datostemplingen har skjult tekst "Mottatt:"</li>
+            <li>Før helsenorge.no er det skjult tekst "Fra:"</li>
+            <li>Før deg er det skjult tekst "Til:"</li>
+            <li>Før (1) er det skjult tekst "antall meldinger:"</li>
+          </ul>
+        </Expander>
       </div>
     );
   }
