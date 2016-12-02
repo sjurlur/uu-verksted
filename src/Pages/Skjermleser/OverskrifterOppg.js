@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Expander from '../../Components/Expander/Expander';
 
 class OverskrifterOppg extends Component {
   render() {
@@ -18,6 +19,14 @@ class OverskrifterOppg extends Component {
             Et godt råd for å holde en jevn og god døgnrytme er å stå opp et fast tidspunkt hver dag og ikke sove mer enn ca. en time ekstra på fridager. Sørg også for å være ute i dagslys i løpet av dagen. Lys er med på å regulere døgnrytmen og utskillelse av kroppens søvnhormon, melatonin.
           </p>
         </div>
+        <br/>
+        <Expander text="Vis fasit">
+          <ul>
+            <li>Overskriften "Gode råd for bedre søvn" er ikke kodet som overskrift</li>
+            <li>Overskriften "følg klokkas" er kodet som nivå 1. Skal være  nivå 3</li>
+            <li>Overskriften "Gode råd for å følge klokka" er ikke kodet som overskrift</li>
+          </ul>
+        </Expander>
       </div>
     );
   }
