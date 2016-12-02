@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Progress from '../Progress/Progress';
+import Progress from '../../Components/Progress/Progress';
 import './Tastaturnavigasjon.css';
 
 class TastaturnavigasjonWrapper extends Component {
