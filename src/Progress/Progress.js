@@ -38,7 +38,7 @@ class Progress extends Component {
     return (
       <footer className="footer layout-container">
         <div className="footer__wrapper">
-          <div className="footer__linkwrap">{prevLink}</div>
+          <div className="footer__linkwrap footer__linkwrap--next">{nextLink}</div>
           <div className="footer__progress">
             <div className="footer__progressbar" aria-hidden="true">
               <span style={{width: (thisStep + 1) / (totalSteps) * 100 + '%'}}>
@@ -48,7 +48,7 @@ class Progress extends Component {
               <span className="visuallyhidden">Du står på steg </span>{thisStep + 1} <span aria-hidden="true">/</span><span className="visuallyhidden"> av </span> {totalSteps}
             </div>
           </div>
-          <div className="footer__linkwrap">{nextLink}</div>
+          <div className="footer__linkwrap footer__linkwrap--prev">{prevLink}</div>
         </div>
       </footer>
     );

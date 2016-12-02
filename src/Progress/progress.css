@@ -19,15 +19,24 @@
   width: 50px;
 }
 
+.footer__linkwrap--prev {
+  order: 0;
+}
+
+.footer__linkwrap--next {
+  order: 2;
+}
+
 .footer__progress {
   display: flex;
   flex-direction: column;
   align-items: center;
+  order: 1;
 }
 
 .footer__progressbar {
   width: 250px;
-  height: 20px;  /* Can be anything */
+  height: 20px; 
   position: relative;
   background: #555;
   border-radius: 5px;
