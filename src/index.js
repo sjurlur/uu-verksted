@@ -39,20 +39,20 @@ ReactDOM.render(
       
       <Route path="/axe" component={AxeWrapper}>
         <IndexRoute component={Axe} />
-        <Route path="/axe/1" component={TommeElementer} name="tommeElementer" />
-        <Route path="/axe/2" component={Kontrast} name="kontrast" />
-        <Route path="/axe/3" component={AltTekst} name="alt tekst" />
+        <Route path="/axe/tomme-elementer" component={TommeElementer} name="tommeElementer" />
+        <Route path="/axe/kontrast" component={Kontrast} name="kontrast" />
+        <Route path="/axe/alt-tekst" component={AltTekst} name="alt tekst" />
         <Route path="/axe/ledetekster" component={Ledetekster} name="Ledetekster" />
         <Route path="/axe/gruppering" name="Gruppering" component={Gruppering} />
       </Route>
 
       <Route path="/tastaturnavigasjon" component={TastaturnavigasjonWrapper}>
         <IndexRoute component={Tastaturnavigasjon} />
-        <Route path="/tastaturnavigasjon/1" component={Fokusmarkor} name="Fokusmarkør" />
-        <Route path="/tastaturnavigasjon/2" component={Tastaturfelle} name="Tastaturfelle"/>
-        <Route path="/tastaturnavigasjon/4" component={DekkendeLag} name="Dekkende lag"/>
-        <Route path="/tastaturnavigasjon/5" component={DekkendeLagOppg} name="Dekkende lag oppgave"/>
-        <Route path="/tastaturnavigasjon/6" component={TastaturnavigasjonOppg} name="Tastaturnavigasjon oppgave"/>
+        <Route path="/tastaturnavigasjon/fokusmarkor" component={Fokusmarkor} name="Fokusmarkør" />
+        <Route path="/tastaturnavigasjon/tastaturfelle" component={Tastaturfelle} name="Tastaturfelle"/>
+        <Route path="/tastaturnavigasjon/modalvindu" component={DekkendeLag} name="Dekkende lag"/>
+        <Route path="/tastaturnavigasjon/modalvindu-oppgave" component={DekkendeLagOppg} name="Dekkende lag oppgave"/>
+        <Route path="/tastaturnavigasjon/tastaturnavigasjon-oppgave" component={TastaturnavigasjonOppg} name="Tastaturnavigasjon oppgave"/>
       </Route>
 
       <Route path="/skjermleser" component={SkjermleserWrapper}>
