@@ -10,11 +10,6 @@ class ListerOppg extends Component {
         </p>
         <div className="mol_emphasisbox grey">
           <h4>Ting man kan ha i skoen</h4>
-          <ul>
-            <li>Såle</li>
-            <li>Sokk</li>
-            <li>Stein</li>
-          </ul>
           <div className="page_skjermleser__divlist">
             <div>Såle</div>
             <div>Sokk</div>
