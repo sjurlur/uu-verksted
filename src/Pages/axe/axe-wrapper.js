@@ -6,7 +6,7 @@ class axeWrapper extends Component {
     return (
       <div>
         <div className="layout-container main page_axe">
-          <h1 className="heading--border-bottom">aXe</h1>
+          <h1 className="heading--border-bottom" tabIndex="-1">aXe</h1>
           {this.props.children}
         </div>
         <Progress index={this.props.route} elements={this.props.routes[this.props.routes.length - 2].childRoutes} current={this.props.location.pathname}/>

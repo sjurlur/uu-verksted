@@ -6,7 +6,7 @@ class Home extends Component {
   render() {
     return (
       <div className="layout-container">
-        <h1 className="heading--border-bottom">Universell utforming for testere</h1>
+        <h1 className="heading--border-bottom" tabIndex="-1">Universell utforming for testere</h1>
         <p>Verkstedet skal lære deg praktisk testing av universell utforming. Vi vil gå gjennom de mest vanlige feilene på helsenorge.no, og verktøy
         vi kan bruke for å finne dem.</p>
         <p>

@@ -38,6 +38,9 @@ ReactDOM.render(
       if (nextState.location.action !== "POP") {
         window.scrollTo(0, 0);
         document.activeElement.blur();
+        setTimeout(() => {
+          console.log(document.getElementsByTagName('h1')[0].focus());
+        }, 100)
       }
     }}>
       <IndexRoute component={Home} />
