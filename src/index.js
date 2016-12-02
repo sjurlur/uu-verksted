@@ -34,7 +34,12 @@ import { Router, Route, hashHistory, IndexRoute } from 'react-router';
 
 ReactDOM.render(
   <Router history={hashHistory}>
-    <Route path="/" component={App}>
+    <Route path="/" component={App} onChange={(prevState, nextState) => {
+      if (nextState.location.action !== "POP") {
+        window.scrollTo(0, 0);
+        document.activeElement.blur();
+      }
+    }}>
       <IndexRoute component={Home} />
       
       <Route path="/axe" component={AxeWrapper}>

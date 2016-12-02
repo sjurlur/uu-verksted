@@ -4,14 +4,14 @@ class Hjelpetekster extends Component {
   render() {
     return (
       <div>
-        <h2>Hjelpetekster</h2>
+        <h2>Skjulte tekster</h2>
         <p>
           Stort sett bør tekster vises for alle brukere. Men i noen få tilfeller skjuler vi tekst visuelt, men viser den for 
           skjemlesere. På helsenorge gjelder dette blant annet de skjulte linkene "hopp til innholdet" og "hopp til hovedmeny".
           I noen tilfeller bruker vi også knapper med ikoner i stedet for tekst.
         </p>
         <h3>Eksempel</h3>
-        <p>Bruk skjermleser til å finne de skjulte tekstene på denne siden.</p>
+        <p>Bruk skjermleser til å finne de skjulte tekstene i boksen under. Det finnes fem totalt.</p>
         <div className="mol_emphasisbox grey">
           <button className="atom_inline-btn close labelinvisible"><span>Lukk</span></button>
 
@@ -20,14 +20,13 @@ class Hjelpetekster extends Component {
               <div className="org_message-header__inner-container">
                 <span className="position-left small atom_avatar " aria-hidden="true"></span>
                 <div className="timestamp">
-                  <span className="date">ons.</span><span className="time">kl. 14:01</span></div><div className="service"></div>
+                  <span className="visuallyhidden">Mottatt: </span><span className="date">ons.</span><span className="time">kl. 14:01</span></div><div className="service"></div>
                   <h1 className="subject">Fullmakt opprettet</h1>
                   <div className="participants">
-                    <span><span className="visuallyhidden">Fra: </span>Helsenorge.no I9, <span className="visuallyhidden">Til: </span>Deg</span>
-                    <span className="all-messages">(1
-                      <span className="visuallyhidden">
-                        meldinger
-                      </span>)
+                    <span><span className="visuallyhidden">Fra: </span>Helsenorge.no, <span className="visuallyhidden">Til: </span>Deg</span>
+                    <span className="all-messages">                      <span className="visuallyhidden">
+                        antall meldinger: 
+                      </span>(1)
                     </span>
                 </div>
               </div>

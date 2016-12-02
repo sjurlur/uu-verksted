@@ -4,9 +4,9 @@ class HjelpeteksterOppg extends Component {
   render() {
     return (
       <div>
-        <h2>Hjelpetekster</h2>
+        <h2>Skjulte tekster</h2>
         <p>
-          Undersøk siden med skjermleser. Hvilke elementer burde ha hjelpetekster?
+          Undersøk siden med skjermleser. Hvilke elementer burde ha skjulte tekster?
         </p>
         <div className="mol_emphasisbox grey">
           <button className="atom_inline-btn close labelinvisible"></button>
@@ -29,6 +29,9 @@ class HjelpeteksterOppg extends Component {
             </div>
           </section>
         </div>
+
+        <h3>Bonusoppgave</h3>
+        <p>Finn de skjulte tekstene i footeren på siden</p>
       </div>
     );
   }
