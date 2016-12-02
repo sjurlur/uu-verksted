@@ -10,7 +10,6 @@ class kontrast extends Component {
         <h2>Alt-tekst</h2>
         <p>Bilder trenger alt-tekst for å være tilgjengelige. Rent dekorative bilder, som f.eks en skillelinje skal ha tom alt-tekst. Bilder som formidler ett budskap skal ha en tekst som beskriver 
         bildet</p>
-        <p>For mer utfyllende informasjon se <a href="https://uu.difi.no/artikkel/2015/04/bilder-og-grafikk">Difis artikkel om alt-tekster</a> og <a href="http://webaim.org/techniques/alttext">webAIMs artikkel om alt-tekster</a></p>
 
         <h3>Oppgave</h3>
         <p>

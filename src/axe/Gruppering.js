@@ -15,12 +15,12 @@ class Gruppering extends Component {
           <fieldset>
             <legend>Send meg epost daglig</legend>
             <div>
-              <input type="radio" name="radio" id="ja" value="ja"/>
-              <label htmlFor="ja">Ja</label>
+              <input type="radio" name="radio" id="ja1" value="ja"/>
+              <label htmlFor="ja1">Ja</label>
             </div>
             <div>
-              <input type="radio" name="radio" id="nei" value="nei"/>
-              <label htmlFor="nei">Nei</label>
+              <input type="radio" name="radio" id="nei1" value="nei"/>
+              <label htmlFor="nei1">Nei</label>
             </div>
           </fieldset>
         </form>
@@ -33,11 +33,11 @@ class Gruppering extends Component {
           <form>
             <legend>Send meg epost nattlig</legend>
             <div>
-              <input type="radio" name="radio" id="ja" value="ja"/>
+              <input type="radio" name="radio2" id="ja" value="ja"/>
               <label htmlFor="ja">Ja</label>
             </div>
             <div>
-              <input type="radio" name="radio" id="nei" value="nei"/>
+              <input type="radio" name="radio2" id="nei" value="nei"/>
               <label htmlFor="nei">Nei</label>
             </div>
           </form>
