@@ -47,3 +47,7 @@ h1 {
   padding-top: 0.5rem;
   min-height: 32px;
 }
+
+h1:focus:after {
+  content: none;
+}

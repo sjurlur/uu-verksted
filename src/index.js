@@ -28,6 +28,7 @@ import OverskrifterOppg from './Pages/Skjermleser/OverskrifterOppg.js';
 import Hjelpetekster from './Pages/Skjermleser/Hjelpetekster.js';
 import HjelpeteksterOppg from './Pages/Skjermleser/HjelpeteksterOppg.js';
 import Skjermleserfelle from './Pages/Skjermleser/Skjermleserfelle.js';
+import SkjermleserOppg from './Pages/Skjermleser/SkjermleserOppg.js';
 
 import './index.css';
 import { Router, Route, hashHistory, IndexRoute } from 'react-router';
@@ -72,6 +73,7 @@ ReactDOM.render(
         <Route path="/skjermleser/hjelpetekster" component={Hjelpetekster} name="Hjelpetekster" />
         <Route path="/skjermleser/hjelpetekster-oppgave" component={HjelpeteksterOppg} name="Hjelpetekster" />
         <Route path="/skjermleser/skjermleserfelle" component={Skjermleserfelle} name="Skjermleserfelle" />
+        <Route path="/skjermleser/skjermleser-oppage" component={SkjermleserOppg} name="Skjermleser oppgave" />
       </Route>
     </Route>
   </Router>,

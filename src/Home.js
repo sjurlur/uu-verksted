@@ -22,11 +22,11 @@ class Home extends Component {
         <p>
           Oppgavene er delt inn i tre bolker. En for hvert verktøy. Hver bolk avsluttes med en større oppgave hvor du skal bruke alt du har lært. Start på toppen og jobb deg gjennom. 
         </p>
-        <ul>
+        <ol>
           <li><Link to="/axe">aXe</Link></li>
           <li><Link to="/tastaturnavigasjon">Tastaturnavigasjon</Link></li>
           <li><Link to="/skjermleser">Skjermleser</Link></li>
-        </ul>
+        </ol>
       </div>
     );
   }
