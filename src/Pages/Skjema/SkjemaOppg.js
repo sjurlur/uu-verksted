@@ -40,7 +40,7 @@ class Skjema extends Component {
             <label htmlFor="allergier">Allergier: <em>(må fylles ut)</em></label>
             <input type="text" id="allergier"/>
             <div className="page_skjema__fieldset">
-              <span>Send epost: </span>
+              <legend>Send epost: </legend>
               <div>
                 <input type="radio" name="radio" id="ja" value="ja"/>
                 <label htmlFor="ja">Ja</label>
@@ -64,7 +64,6 @@ class Skjema extends Component {
               <li>Etikett til etternavn er kodet som <code>&lt;span&gt;</code> i stedet for <code>&lt;label&gt;</code></li>
               <li>Påkrevd felt allergier mangler attributten <em>required</em></li>
               <li>Radioknapper er ikke gruppert med <code>&lt;fieldset&gt;</code></li>
-              <li>Etiketten til gruppen med radioknapper er kodet som <code>&lt;span&gt;</code> i stedet for <code>&lt;legend&gt;</code></li>
               <li>Kommentarfelt mangler etikett</li>
               <li>Det er bare mulig å klikke på send knappen med musen</li>
             </ul>

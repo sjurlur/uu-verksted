@@ -3,14 +3,6 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import Home from './Home';
 
-import TastaturnavigasjonWrapper from './Pages/Tastaturnavigasjon/Tastaturnavigasjon-wrapper';
-import Tastaturnavigasjon from './Pages/Tastaturnavigasjon/Tastaturnavigasjon';
-import Fokusmarkor from './Pages/Tastaturnavigasjon/Fokusmarkor';
-import Tastaturfelle from './Pages/Tastaturnavigasjon/Tastaturfelle';
-import DekkendeLag from './Pages/Tastaturnavigasjon/DekkendeLag';
-import DekkendeLagOppg from './Pages/Tastaturnavigasjon/DekkendeLagOppg';
-import TastaturnavigasjonOppg from './Pages/Tastaturnavigasjon/TastaturnavigasjonOppg';
-
 import AxeWrapper from './Pages/axe/axe-wrapper.js';
 import Axe from './Pages/axe/axe.js';
 import TommeElementer from './Pages/axe/tomme-elementer.js';
@@ -18,6 +10,15 @@ import Kontrast from './Pages/axe/kontrast.js';
 import AltTekst from './Pages/axe/alt-tekst.js';
 import Ledetekster from './Pages/axe/Ledetekster';
 import Gruppering from './Pages/axe/Gruppering';
+import axeOppg from './Pages/axe/axeOppg';
+
+import TastaturnavigasjonWrapper from './Pages/Tastaturnavigasjon/Tastaturnavigasjon-wrapper';
+import Tastaturnavigasjon from './Pages/Tastaturnavigasjon/Tastaturnavigasjon';
+import Fokusmarkor from './Pages/Tastaturnavigasjon/Fokusmarkor';
+import Tastaturfelle from './Pages/Tastaturnavigasjon/Tastaturfelle';
+import DekkendeLag from './Pages/Tastaturnavigasjon/DekkendeLag';
+import DekkendeLagOppg from './Pages/Tastaturnavigasjon/DekkendeLagOppg';
+import TastaturnavigasjonOppg from './Pages/Tastaturnavigasjon/TastaturnavigasjonOppg';
 
 import SkjermleserWrapper from './Pages/Skjermleser/Skjermleser-wrapper.js';
 import Skjermleser from './Pages/Skjermleser/Skjermleser.js';
@@ -53,6 +54,7 @@ ReactDOM.render(
         <Route path="/axe/alt-tekst" component={AltTekst} name="alt tekst" />
         <Route path="/axe/ledetekster" component={Ledetekster} name="Ledetekster" />
         <Route path="/axe/gruppering" name="Gruppering" component={Gruppering} />
+        <Route path="/axe/oppgave" name="Oppgave" component={axeOppg} />
       </Route>
 
       <Route path="/tastaturnavigasjon" component={TastaturnavigasjonWrapper}>

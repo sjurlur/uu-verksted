@@ -17,3 +17,20 @@
   vertical-align: middle;
   margin-right: 1rem;
 }
+
+.page_axe__absolutecontainer {
+  position: relative;
+}
+
+.page_axe__absolutebackground {
+  width: 200px;
+  height: 30px;
+  background: #000;
+  position: absolute;
+}
+
+.page_axe__text {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
