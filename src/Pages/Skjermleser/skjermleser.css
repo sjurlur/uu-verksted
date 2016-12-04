@@ -25,3 +25,9 @@
   margin-top: 1rem;
   display: block;
 }
+
+.page_skjermleser__closebutton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}

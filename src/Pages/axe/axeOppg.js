@@ -24,6 +24,12 @@ class axeOppg extends Component {
             <a href="http://www.doggifpage.com/"><img src={dog} height="200"/></a>
           </form>
         </div>
+
+        <h3>Ressurser</h3>
+        <ul>
+          <li><a href="https://uu.difi.no/artikkel/2015/04/bilder-og-grafikk">Difis artikkel om alt-tekster</a></li>
+          <li><a href="http://webaim.org/techniques/alttext">webAIMs artikkel om alt-tekster</a></li>
+        </ul>
       </div>
     );
   }

@@ -3,7 +3,7 @@
   padding: 1rem 0;
   border-top: 1px solid #d3d3d3;
   padding: 1rem 0;
-  width: 50rem;
+  max-width: 50rem;
   text-align: center;
 }
 
