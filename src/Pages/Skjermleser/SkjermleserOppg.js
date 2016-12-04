@@ -22,7 +22,7 @@ class SkjermleserOppg extends Component {
     const lightbox = (
       <div className={classes} ref="lightbox">
           <div className="lightbox-content">
-              <h3 tabIndex="0" ref="lightboxheading">Dette er en lightbox</h3>
+              <h3 tabIndex="0" ref="lightboxheading">Dette er ett modalvindu</h3>
               <button className="closebutton_v2 atom_inline-btn labelinvisible close" onClick={this.toggleLightbox}><span>Lukk</span></button>
           </div>
       </div>
@@ -56,7 +56,7 @@ class SkjermleserOppg extends Component {
             </div>
           </div><br />
           {lightbox}
-          <button className="actionbutton" onClick={this.toggleLightbox}>Åpne lightbox</button>
+          <button className="actionbutton" onClick={this.toggleLightbox}>Åpne modalvindu</button>
         </div>
         <br />
         <Expander text="Vis fasit">
@@ -64,8 +64,8 @@ class SkjermleserOppg extends Component {
             <li>Listen har bare ett listeelement</li>
             <li>Overskriften i feilmeldingen er ikke kodet som en overskrift</li>
             <li>Lukkeknapp mangler tekst</li>
-            <li>Lightbox er ikke skjult for skjermleser når den er lukket</li>
-            <li>Skjermleser kan navigere utenfor innholdet i lightboxen når den er åpen</li>
+            <li>Modalvinduet er ikke skjult for skjermleser når den er lukket</li>
+            <li>Skjermleser kan navigere utenfor innholdet i modalvinduet når den er åpen</li>
           </ul>
         </Expander>
       </div>
