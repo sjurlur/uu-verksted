@@ -14,6 +14,7 @@ import axeOppg from './Pages/axe/axeOppg';
 
 import TastaturnavigasjonWrapper from './Pages/Tastaturnavigasjon/Tastaturnavigasjon-wrapper';
 import Tastaturnavigasjon from './Pages/Tastaturnavigasjon/Tastaturnavigasjon';
+import Knapper from './Pages/Tastaturnavigasjon/Knapper';
 import Fokusmarkor from './Pages/Tastaturnavigasjon/Fokusmarkor';
 import Tastaturfelle from './Pages/Tastaturnavigasjon/Tastaturfelle';
 import DekkendeLag from './Pages/Tastaturnavigasjon/DekkendeLag';
@@ -41,7 +42,7 @@ ReactDOM.render(
         window.scrollTo(0, 0);
         document.activeElement.blur();
         setTimeout(() => {
-          console.log(document.getElementsByTagName('h1')[0].focus());
+          document.getElementsByTagName('h1')[0].focus();
         }, 100)
       }
     }}>
@@ -60,6 +61,7 @@ ReactDOM.render(
       <Route path="/tastaturnavigasjon" component={TastaturnavigasjonWrapper}>
         <IndexRoute component={Tastaturnavigasjon} />
         <Route path="/tastaturnavigasjon/fokusmarkor" component={Fokusmarkor} name="Fokusmarkør" />
+        <Route path="/tastaturnavigasjon/knapper" component={Knapper} name="Knapper" />
         <Route path="/tastaturnavigasjon/tastaturfelle" component={Tastaturfelle} name="Tastaturfelle"/>
         <Route path="/tastaturnavigasjon/modalvindu" component={DekkendeLag} name="Dekkende lag"/>
         <Route path="/tastaturnavigasjon/modalvindu-oppgave" component={DekkendeLagOppg} name="Dekkende lag oppgave"/>

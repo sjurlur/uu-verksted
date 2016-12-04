@@ -37,3 +37,7 @@
 .page_tastaturnavigasjon__fasit {
   margin-top: 1rem;
 }
+
+.page_tastaturnavigasjon__login-btn {
+  display: inline !important; 
+}
