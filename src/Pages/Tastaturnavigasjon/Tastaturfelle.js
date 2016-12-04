@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import focusTrap from 'focus-trap';
+import Expander from '../../Components/Expander/Expander';
 
 class Tastaturfelle extends Component {
   constructor(props) {
     super(props);
     this.state = { expanded: false };
     this.expand = this.expand.bind(this);
-    this.deactivateTrap = this.deactivateTrap.bind(this);
   }
 
   expand() {
@@ -17,10 +17,6 @@ class Tastaturfelle extends Component {
           this.setState({trap});
           trap.activate();
     }, 100);
-  }
-
-  deactivateTrap() {
-    this.state.trap.deactivate();
   }
 
   render() {
@@ -34,7 +30,6 @@ class Tastaturfelle extends Component {
           <li><a href="#">Link2</a></li>
           <li><a href="#">Link3</a></li>
         </ul>
-        <button className="atom_secondarybutton" onClick={this.deactivateTrap}>Ferdig</button>
       </div>
       );
 
@@ -46,7 +41,7 @@ class Tastaturfelle extends Component {
           at bruker ikke havner i en tastaturfelle hvor man blir sittende fast i ett element eller en gruppe elementer.
         </p>
         <h3>Oppgave</h3>
-        <p>Finn én feil. Trykk på knappen "ferdig" for å kunne gå til neste side</p>
+        <p>Finn én feil. Når du har funnet den må du laste inn siden på nytt for å kunne navigere videre.</p>
         <div className="mol_emphasisbox grey">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil quis, aut possimus voluptatum ratione reprehenderit, corporis, minus repellat facere nobis blanditiis temporibus aperiam. Sit, praesentium? In harum numquam dolorem.
@@ -54,6 +49,12 @@ class Tastaturfelle extends Component {
           <button className="atom_inline-navigationbutton arrow-after arrow-down" onClick={this.expand}>Les mer om lorem ipsum</button>
           {expander}
         </div>
+        <br />
+        <Expander text="Vis fasit">
+          <p>
+            Det er ikke mulig å komme seg ut av det ekspanderbare innholdet når en har åpnet den. 
+          </p>
+        </Expander>
       </div>
     );
   }
