@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import focusTrap from 'focus-trap';
 import classNames from 'classnames';
+import Expander from '../../Components/Expander/Expander';
 
 class DekkendeLagOppg extends Component {
   constructor(props) {
@@ -60,8 +61,13 @@ class DekkendeLagOppg extends Component {
           <br />
           <button className="atom_inline-btn message"><span>Send melding til Helse nord</span></button><br/>
           <button className="atom_inline-btn message"><span>Send melding til Helse vest</span></button>
-        </div>
-        
+        </div><br />
+        <Expander text="Vis fasit">
+          <p>
+            Det er fire skjulte tab-steg mellom knappen "Åpne modalvindu" og "Send melding til Helse nord".
+            De ligger inne i modalvinduet, og skal ikke være tilgjengelige for tastaturnavigasjon når denne er lukket. 
+          </p>
+        </Expander>
       </div>
     );
   }
