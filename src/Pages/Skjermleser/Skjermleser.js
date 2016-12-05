@@ -10,11 +10,11 @@ class Skjermleser extends Component {
        </p>
       <h2>Hvordan navigere med ChromeVox</h2>
       <ul>
-        <li>For å starte ChromeVox. Trykk på <code>ctrl + alt + a + a</code></li>
-        <li>Naviger forover med <code>ctrl + alt + pil ned</code></li>
-        <li>Naviger bakover med <code>ctrl + alt + pil opp</code></li>
-        <li>"Zoom inn" med <code>ctrl + alt + +</code></li>
-        <li>"Zoom ut" med <code>ctrl + alt + -</code></li>
+        <li>For å starte ChromeVox. Trykk på <code>shift + alt + a + a</code></li>
+        <li>Naviger forover med <code>shift + alt + pil ned</code></li>
+        <li>Naviger bakover med <code>shift + alt + pil opp</code></li>
+        <li>"Zoom inn" med <code>shift + alt + +</code></li>
+        <li>"Zoom ut" med <code>shift + alt + -</code></li>
         <li>For å få den til å være stille, trykk <code>ctrl</code></li>
       </ul>
        <h2>Oppgave</h2>
