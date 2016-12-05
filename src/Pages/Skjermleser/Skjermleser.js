@@ -5,7 +5,7 @@ class Skjermleser extends Component {
     return (
       <div>
        <p>Skjermlesere er dataprogrammer som blir brukt for å lese opp innholdet på skjermen. 
-        De er svært nyttige for testing av tilgjengelighet, da de leser opp hva elementene er kodet som. Dermed kan vi se om 
+        De er nyttige for testing av tilgjengelighet, da de leser opp hva elementene er kodet som. Dermed kan vi se om 
         sidene er kodet riktig og finne eventuelle utfordringer for brukere som benytter hjelpeteknologi.  
        </p>
       <h2>Hvordan navigere med ChromeVox</h2>
