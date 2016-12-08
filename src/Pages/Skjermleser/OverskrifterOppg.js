@@ -5,26 +5,23 @@ class OverskrifterOppg extends Component {
   render() {
     return (
       <div>
-        <h2>Overskrifter</h2>
-        <p>Undersøk siden med skjermleser. Er det samsvar mellom utseende og koding? Følger overskriftene en logisk struktur?</p>
+        <h2>Headings</h2>
+        <p></p>
         <div className="mol_emphasisbox grey">
-          <div className="page_skjermelser__h2">Gode råd for bedre søvn</div>
-          <p>De aller fleste av oss har problemer med å sove innimellom. Dette er helt normalt. Gode søvnvaner fremmer bedre søvn og forebygger framtidige søvnproblemer.</p>
-          <h1 className="h3">Følg klokka</h1>
-          <p>
-            Søvnen fungerer best når vi legger oss og står opp til omtrent samme tid hver dag. Søvnen følger en døgnrytme som styres av en biologisk klokke i hjernen. Den biologiske klokka styrer mange prosesser i kroppen i tillegg til søvn og våkenhet, blant annet kroppstemperatur og fordøyelse.
-          </p>
-          <b className="page_skjermelser__boldheading">Gode råd for å følge klokka</b>
-          <p>
-            Et godt råd for å holde en jevn og god døgnrytme er å stå opp et fast tidspunkt hver dag og ikke sove mer enn ca. en time ekstra på fridager. Sørg også for å være ute i dagslys i løpet av dagen. Lys er med på å regulere døgnrytmen og utskillelse av kroppens søvnhormon, melatonin.
-          </p>
+          <div className="page_skjermelser__h2">MOBY DICK; or, THE WHALE.</div>
+          <h1 className="h3">CHAPTER 1. Loomings.</h1>
+          <p>Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world</p>
+
+          <b className="page_skjermelser__boldheading">CHAPTER 1.1</b>
+          <p>But look! here come more crowds, pacing straight for the water, and seemingly bound for a dive. Strange!</p>
+
         </div>
         <br/>
-        <Expander text="Vis fasit">
+        <Expander text="Show answers">
           <ul>
-            <li>Overskriften "Gode råd for bedre søvn" er ikke kodet som overskrift</li>
-            <li>Overskriften "følg klokkas" er kodet som nivå 1. Skal være  nivå 3</li>
-            <li>Overskriften "Gode råd for å følge klokka" er ikke kodet som overskrift</li>
+            <li>The heading "MOBY DICK; or, THE WHALE." is not coded as a heading</li>
+            <li>The heading "CHAPTER 1. Loomings." is coded as heading level 1. Should be level 3</li>
+            <li>The heading "CHAPTER 1.1" is not coded as a heading</li>
           </ul>
         </Expander>
       </div>

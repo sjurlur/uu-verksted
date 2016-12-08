@@ -4,23 +4,23 @@ class Overskrifter extends Component {
   render() {
     return (
       <div>
-        <h2>Overskrifter</h2>
-        <p>Tekst som ser ut som overskrifter skal være kodet som overskrifter. 
-        Overskriftene skal ikke hoppe over noen overskriftsnivå. Det vil si at ikke kan gå 
-        direkte fra nivå 1 til nivå 3.</p>
-        <h3>Eksempel</h3>
+        <h2>Headings</h2>
+        <p>What looks like a heading should be coded as a heading. Headings may not skip levels. Thus 
+        you cannot go directly from level 1 to level 3</p>
+        <h3>Exercise</h3>
         <p>
-          Se gjennom overskriftene på denne siden med skjermleseren. Hvilket nivå er de på?
+          On which level are the headings on this page?
         </p>
         <div className="mol_emphasisbox grey">
-          <h3>Synes du foreldrene dine er strenge?</h3>
-          <p>Hvor går du? Hvem er du sammen med? Hva skal dere gjøre? Ta på deg mer klær! Kom hjem før klokka tolv!</p>
-          <h4>Foreldre skal sette grenser</h4>
-          <p>Foreldre setter grenser og rammer for deg for at du skal få et trygt «rom» å utvikle deg i. Reglene og rammene skaper veggene i ditt rom som noen ganger vil føles for lite og trangt.</p>
-          <h4>​Noe å tenke på når foreldre er strenge:</h4>
-          <p>Du skal lære å passe på deg selv for din egen skyld – ikke andres</p>
-          <h2>Hvordan snakke med barn om sterke medieinntrykk?</h2>
-          <p>Spill DVDer eller videoer av barnas yndlingsprogrammer i stedet.</p>
+          <h2>MOBY DICK; or, THE WHALE.</h2>
+          <h3>CHAPTER 1. Loomings.</h3>
+          <p>Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world</p>
+          <h4>CHAPTER 1.1</h4>
+          <p>But look! here come more crowds, pacing straight for the water, and seemingly bound for a dive. Strange!</p>
+          <h5>CHAPTER 1.1.1</h5>
+          <p>Now, when I say that I am in the habit of going to sea whenever I begin to grow hazy about the eyes, and begin to be over conscious of my lungs, I do not mean to have it inferred that I ever go to sea as a passenger. </p>
+          <h3>CHAPTER 2. The Carpet-Bag.</h3>
+          <p>I stuffed a shirt or two into my old carpet-bag, tucked it under my arm, and started for Cape Horn and the Pacific.</p>
         </div>
       </div>
     );

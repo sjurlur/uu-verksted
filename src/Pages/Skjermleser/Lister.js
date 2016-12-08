@@ -4,27 +4,27 @@ class Lister extends Component {
   render() {
     return (
       <div>
-        <h2>Lister</h2>
+        <h2>Lists</h2>
         <p>
-          Lister skal være kodet som lister. 
+          Lists should be coded as lists.  
         </p>
         
-        <h3>Eksempel</h3>
-        <p>Hør hvordan de forskjellige elementene høres ut med skjermleser</p>
+        <h3>Exercise</h3>
+        <p>Navigate through the lists</p>
         <div className="mol_emphasisbox grey">
-          <h4>Ting man kan ha i skoen</h4>
+          <h4>House pets</h4>
           <ul>
-            <li>Såle</li>
-            <li>Sokk</li>
-            <li>Stein</li>
+            <li>Dog</li>
+            <li>Cat</li>
+            <li>Raccoon</li>
           </ul>
 
-          <h4>Rekkefølgen i gullrekka</h4>
+          <h4>My favourite fruits</h4>
           <ol>
-            <li>Norge rundt</li>
-            <li>Beat for beat</li>
-            <li>Nytt på nytt</li>
-            <li>Skavlan</li>
+            <li>Pineapple</li>
+            <li>Avocado</li>
+            <li>Fig</li>
+            <li>Grape</li>
           </ol>
         </div>
 

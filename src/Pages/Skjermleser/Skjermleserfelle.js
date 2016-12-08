@@ -4,16 +4,16 @@ class Skjermleserfelle extends Component {
   render() {
     return (
       <div>
-        <h2>Skjule innhold for skjermleser</h2>
-        <p>Dersom noe er skjult visuelt skal det (foruten hjelpetekster) også være skjult for skjermleser. </p>
-        <h3>Eksempel</h3>
+        <h2>Hidden content</h2>
+        <p>If something is hidden visually, it should (in most cases) also be hidden from screen readers</p>
+        <h3>Exercise</h3>
         <p>
-          Undersøk hvordan det høres ut når innhold ikke er skjult for skjermleser. 
+          Find the content that is hidden visually but not from screen readers. 
         </p>
         <div className="mol_emphasisbox grey">
-          <button className="atom_inline-navigationbutton arrow-after arrow-down" aria-expanded="false">Vis detaljer</button>
+          <button className="atom_inline-navigationbutton arrow-after arrow-down" aria-expanded="false">Show details</button>
           <div className="visuallyhidden">
-            <p>Det skjedde i de dager at det gikk ut befaling fra keiser Augustus om at hele verden skulle innskrives i manntall. Denne første innskrivning ble holdt mens Kvirinius var landshøvding i Syria. Og alle drog av sted for å la seg innskrive, hver til sin by. </p>
+            <p>You found it!</p>
           </div>
         </div>
       </div>

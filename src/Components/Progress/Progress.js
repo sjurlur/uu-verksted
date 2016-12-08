@@ -45,7 +45,7 @@ class Progress extends Component {
               </span>
             </div>
             <div>
-              <span className="visuallyhidden">Du står på steg </span>{thisStep + 1} <span aria-hidden="true">/</span><span className="visuallyhidden"> av </span> {totalSteps}
+              <span className="visuallyhidden">You are on step </span>{thisStep + 1} <span aria-hidden="true">/</span><span className="visuallyhidden"> of </span> {totalSteps}
             </div>
           </div>
           <div className="footer__linkwrap footer__linkwrap--prev">{prevLink}</div>
