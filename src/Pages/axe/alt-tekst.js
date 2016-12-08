@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import brandenburger from './brandenburger.jpg';
 import hamburger from './hamburger.jpg';
 import slett from './slett.png';
+import Expander from '../../Components/Expander/Expander';
 
 class kontrast extends Component {
   render() {
@@ -24,6 +25,13 @@ class kontrast extends Component {
           <br /><br />
           <img src={slett} className="page_axe__slett" /><button className="atom_inline-navigationbutton">Slett</button>          
         </div>
+        <br />
+        <Expander text="Vis fasit">
+          <ul>
+            <li>Hamburgeren mangler beskrivende alt-tekst</li>
+            <li>Søppelbøtten mangler tom alt-tekst</li>
+          </ul>
+        </Expander>
       </div>
     );
   }

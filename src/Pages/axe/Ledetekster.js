@@ -12,18 +12,15 @@ class LedeteksterOppg extends Component {
           En enkel måte å teste om input-feltet og ledeteksten er koblet sammen på, er ved å trykke på ledeteksten.
           Fokusmarkøren skal da havne i input-feltet. 
         </p>
-        <h3>Eksempel</h3>
-        <div className="mol_emphasisbox grey">
-          <form>
-            <label htmlFor="tekst1">Navn:</label>
-            <input type="text" id="tekst1" />
-          </form>
-        </div>
         <h3>Oppgave</h3>
         <p>Finn én feil. Både ved bruk av axe og museklikk.</p>
         <div className="mol_emphasisbox grey">
           <form>
-            <span>Navn:</span>
+            <label htmlFor="tekst1">Fornavn:</label>
+            <input type="text" id="tekst1" />
+          </form><br/>
+          <form>
+            <span>Baknavn:</span>
             <input type="text" id="tekst" />
           </form>
         </div>

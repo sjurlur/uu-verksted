@@ -1,5 +1,5 @@
 .page_axe__illustration {
-  max-width: 40rem;
+  max-width: 30rem;
   border: 1px solid black;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .page_axe__absolutebackground {
-  width: 200px;
+  width: 400px;
   height: 30px;
   background: #000;
   position: absolute;
@@ -33,4 +33,12 @@
   color: #fff;
   position: relative;
   z-index: 1;
+}
+
+.page_axe__closetext {
+  padding-left: 0.5rem;
+}
+
+.page_axe .atom_inline-btn {
+  vertical-align: middle;
 }

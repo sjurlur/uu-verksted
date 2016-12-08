@@ -9,9 +9,11 @@ class Gruppering extends Component {
           Radioknapper må grupperes. Checkbokser bør grupperes. Det gjøres med elementet <code>&lt;fieldset&gt;</code>. Tekst som beskriver gruppen legges i&nbsp;
           <code>&lt;legend&gt;</code>.
         </p>
-        <h3>Eksempel</h3>
+        <h3>Oppgave</h3>
+        <p>
+          Bruk aXe til å finne ikke-grupperte radioknapper. 
+        </p>
         <div className="mol_emphasisbox grey">
-        <form>
           <fieldset>
             <legend>Send meg epost daglig</legend>
             <div>
@@ -23,13 +25,6 @@ class Gruppering extends Component {
               <label htmlFor="nei1">Nei</label>
             </div>
           </fieldset>
-        </form>
-        </div>
-        <h3>Oppgave</h3>
-        <p>
-          Bruk aXe til å finne ikke-grupperte radioknapper. 
-        </p>
-        <div className="mol_emphasisbox grey">
           <form>
             <legend>Send meg epost nattlig</legend>
             <div>

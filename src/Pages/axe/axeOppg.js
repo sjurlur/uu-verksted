@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import dog from './dog.png'
+import Expander from '../../Components/Expander/Expander';
+
 class axeOppg extends Component {
   render() {
     return (
@@ -11,7 +13,7 @@ class axeOppg extends Component {
             <div className="page_axe__absolutebackground">
             </div>
             <div className="page_axe__text">
-              en tekst med god kontrast
+              Dette er en tekst som beskriver dette skjemaet
             </div>
           </div>
           <form>
@@ -20,10 +22,22 @@ class axeOppg extends Component {
             <label htmlFor="1">Valgkrets:</label>
             <input type="text" placeholder="text" id="1" /><br />
             <button className="atom_inline-btn send"></button>
-            <button className="atom_inline-btn close"></button><br />
-            <a href="http://www.doggifpage.com/"><img src={dog} height="200"/></a>
+            <button className="atom_inline-btn close"></button><span className="page_axe__closetext">Lukk</span><br />
           </form>
+          <p>Her er en side med:</p>
+          <a href="http://www.doggifpage.com/"><img src={dog} height="200"/></a>
         </div>
+        <br />
+        <Expander text="Vis fasit">
+          <ul>
+            <li>aXe rapporterer kontrastfeil på hvit tekst på svart bakgrunn. Det stemmer ikke.</li>
+            <li>Begge input feltene er koblet til samme label.</li>
+            <li>Papirflyknappen har ingen tekst</li>
+            <li>Lukkeknappen har ingen tekst (teksten "lukk" er ikke knyttet til elementet)</li>
+            <li>Bildet mangler alt-tekst</li>
+            <li>Bildet er en link, men mangler linktekst. Teksten er skrevet i bildet.</li>
+          </ul>
+        </Expander>
 
         <h3>Ressurser</h3>
         <ul>
