@@ -36,6 +36,7 @@ class axeOppg extends Component {
             <li>Lukkeknappen har ingen tekst (teksten "lukk" er ikke knyttet til elementet)</li>
             <li>Bildet mangler alt-tekst</li>
             <li>Bildet er en link, men mangler linktekst. Teksten er skrevet i bildet.</li>
+            <li>"Vis fasit" har ikke god nok kontrast</li>
           </ul>
         </Expander>
 
