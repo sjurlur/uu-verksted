@@ -8,7 +8,8 @@ class TastaturnavigasjonOppg extends Component {
     super(props);
     this.toggleOpen = this.toggleOpen.bind(this);
     this.toggleFasit = this.toggleFasit.bind(this);
-    this.state = { open: false, fasit: false };
+    this.state = { open: false, fasit: false, clicked: false };
+    this.click = this.click.bind(this);
   }
 
   toggleOpen() {
@@ -21,6 +22,13 @@ class TastaturnavigasjonOppg extends Component {
     this.setState({ fasit });
   }
 
+  click() {
+    this.setState({ clicked: true });
+    setTimeout(() => {
+      this.setState({ clicked: false });
+    }, 2000)
+  }
+
   render() {
     const expanderClasses = classNames({visuallyhidden: !this.state.open});
     const fasitButtonClasses = classNames('atom_inline-navigationbutton', 'arrow-after', {
@@ -31,6 +39,7 @@ class TastaturnavigasjonOppg extends Component {
       'arrow-up': this.state.open,
       'arrow-down': !this.state.open,
     });
+    const text = this.state.clicked ? 'Klikk registrert' : null;
     return (
       <div>
        <h2>Oppgave</h2>
@@ -64,13 +73,14 @@ class TastaturnavigasjonOppg extends Component {
                           <label htmlFor="Samtykke_1" className="">Jeg har forstått hva det betyr for meg å trekke tilbake samtykket</label>
                         </div>
                         <div className="actions">
-                          <button className="actionbutton" disabled="" type="button">
+                          <button className="actionbutton" disabled="" type="button" onClick={this.click}>
                             <span className="">Jeg trekker samtykket</span>
                           </button>
-                          <button className="cancelbutton page_tastaturnavigasjon__cancelbutton" type="button">
+                          <button className="cancelbutton page_tastaturnavigasjon__cancelbutton" type="button" onClick={this.click}>
                             <span className="">Avbryt</span>
                           </button>
                         </div>
+                        {text}
                       </div>
                     </div>
                   </div>
