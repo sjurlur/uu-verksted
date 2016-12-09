@@ -13,7 +13,7 @@ class axeOppg extends Component {
             <div className="page_axe__absolutebackground">
             </div>
             <div className="page_axe__text">
-              Dette er en tekst som beskriver dette skjemaet
+              Dette er en tekst
             </div>
           </div>
           <form>
